@@ -1,0 +1,14 @@
+{
+  "name": "tichi-login-automation",
+  "version": "1.0.0",
+  "description": "Playwright automation framework for Tichi login functionality",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:single": "npx playwright test --grep",
+    "test:headed": "npx playwright test --headed",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "urls": {
+    "login": "/login",
+    "signUp": "/sign-up",
+    "home": "/"
+  },
+  "existingEmail": "test@example.com",
+  "nonExistentEmail": "nonexistent-user@example.com",
+  "validUser": {
+    "email": "test@example.com",
+    "password": "ValidPass@123"
+  },
+  "invalidPassword": {
+    "email": "test@example.com",
+    "password": "WrongPass@1"
+  },
+  "invalidEmail": {
+    "email": "nonexistent-user@example.com",
+    "password": "SomePass@123"
+  },
+  "invalidEmailFormat": "not-an-email",
+  "sqlInjection": "' OR 1=1 --",
+  "xssScript": "<script>alert('xss')</script>",
+  "errorMessages": {
+    "emailRequired": "Email is required",
+    "passwordRequired": "Password is required",
+    "invalidCredentials": "Invalid login details"
+  },
+  "pageContent": {
+    "heading": "Sign in to Tichi",
+    "signUpHeading": "Sign Up to Tichi",
+    "continueButton": "Continue",
+    "loginButton": "Login",
+    "forgotPassword": "Forgot Password?",
+    "googleSignIn": "Continue with Google"
+  }
+}
