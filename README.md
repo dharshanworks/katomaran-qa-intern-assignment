@@ -1,12 +1,10 @@
 # Katomaran QA Intern Technical Assignment
 
+## Overview
+
 This repository contains my submission for the **QA Intern Technical Assignment** conducted by **Katomaran Technologies**.
 
-The assignment focuses on three core areas of Quality Assurance:
-
-- Manual Test Case Design
-- Defect Reporting
-- UI Automation Testing using Playwright
+The assignment demonstrates my understanding of manual testing, including test case design and defect reporting.
 
 ---
 
@@ -18,183 +16,82 @@ The assignment focuses on three core areas of Quality Assurance:
 
 ---
 
-# Assignment Overview
+# Assignment Tasks
 
 ## Task 1 – Test Case Creation
 
-Created comprehensive manual test cases for the following modules:
+Prepared comprehensive manual test cases for the **Login** and **Signup** functionalities.
 
-- Login
-- Signup
+### Test Coverage
 
-The test cases cover:
-
-- Positive Scenarios
-- Negative Scenarios
+- Positive Test Scenarios
+- Negative Test Scenarios
 - Input Validation
-- Boundary Conditions
+- Boundary Value Testing
 - Functional Testing
 - UI Validation
 - Basic Security Validation
+
+The test cases are designed to ensure adequate coverage of the Login and Signup modules.
 
 ---
 
 ## Task 2 – Defect Reporting
 
-Prepared a professional defect report for the following issue:
+Prepared a detailed defect report for the following issue:
 
-**Bug**
+**Defect:** Application allows login attempt with an invalid email format.
 
-Application allows users to attempt login using an invalid email format.
-
-The report contains:
+The defect report includes:
 
 - Defect Summary
 - Environment Details
-- Steps to Reproduce
 - Test Data
+- Steps to Reproduce
 - Expected Result
 - Actual Result
 - Severity & Priority
 - Impact Analysis
 - Suggested Fix
+- Traceability
 
 ---
 
-## Task 3 – Automation Testing
+# Repository Structure
 
-Implemented automation for the Login functionality using **Playwright with JavaScript**.
-
-The automation framework follows the **Page Object Model (POM)** design pattern to improve code readability, reusability, and maintainability.
-
-### Automated Test Scenarios
-
-- Verify Login page loads successfully
-- Verify login with valid credentials
-- Verify login with invalid credentials
-- Verify empty email validation
-- Verify empty password validation
-- Verify invalid email format validation
-- Verify error message validation
-
----
-
-# Project Structure
-
-```
+```text
 katomaran-qa-intern-assignment
 │
-├── fixtures
-│   └── loginData.json
-│
-├── pages
-│   └── LoginPage.js
-│
-├── tests
-│   └── login.spec.js
-│
-├── TestCases.xlsx
-├── package.json
-├── package-lock.json
-├── playwright.config.js
-├── .gitignore
+├── Task01_Login_Signup_TestCases.xlsx
+├── Task02_Defect_Report.docx
+├── QA_Intern_Technical_Assignment.pdf
 └── README.md
 ```
 
 ---
 
-# Tech Stack
+# Deliverables
 
-### Manual Testing
+- ✅ Task 1 – Login & Signup Test Cases
+- ✅ Task 2 – Defect Report
 
+---
+
+# Skills Demonstrated
+
+- Manual Testing
 - Test Case Design
+- Functional Testing
+- Input Validation Testing
 - Defect Reporting
-
-### Automation Testing
-
-- Playwright
-- JavaScript
-- Page Object Model (POM)
+- Bug Analysis
+- Test Documentation
 
 ---
 
-# Installation
+# Learning Outcome
 
-Clone the repository:
-
-```bash
-git clone https://github.com/dharshanworks/katomaran-qa-intern-assignment.git
-```
-
-Navigate to the project directory:
-
-```bash
-cd katomaran-qa-intern-assignment
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Install Playwright browsers:
-
-```bash
-npx playwright install
-```
-
----
-
-# Running the Tests
-
-Execute all test cases:
-
-```bash
-npx playwright test
-```
-
-Run the tests in headed mode:
-
-```bash
-npx playwright test --headed
-```
-
----
-
-# View Test Report
-
-Generate and open the Playwright HTML report:
-
-```bash
-npx playwright show-report
-```
-
----
-
-# Repository Highlights
-
-- Well-structured Playwright framework
-- Page Object Model (POM) architecture
-- Reusable page methods
-- Externalized test data
-- Manual testing documentation
-- Defect reporting
-- HTML execution reports
-- Clean and maintainable project structure
-
----
-
-# Learning Outcomes
-
-This assignment helped me strengthen my understanding of:
-
-- Software Testing Fundamentals
-- Test Case Design
-- Bug Reporting
-- UI Automation using Playwright
-- Page Object Model (POM)
-- Test Execution and Reporting
+This assignment provided an opportunity to apply software testing concepts in a practical scenario. It helped strengthen my understanding of creating effective test cases, identifying defects, documenting issues clearly, and following a structured QA approach.
 
 ---
 
@@ -210,4 +107,4 @@ GitHub: https://github.com/dharshanworks
 
 # Acknowledgement
 
-I sincerely thank **Katomaran Technologies** for providing this technical assignment. It was a valuable opportunity to apply my testing knowledge in a practical scenario and gain hands-on experience in manual testing, defect reporting, and Playwright automation.
+I sincerely thank **Katomaran Technologies** for providing this technical assignment. It was a valuable learning experience that allowed me to apply my manual testing knowledge in a real-world scenario and improve my understanding of software quality assurance.
